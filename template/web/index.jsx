@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react"
 import { render } from "react-dom"
-import { hello } from "../apis/hello.mjs"
+import { hello } from "../apis/hello.js"
 
 const Index = () => {
   let [msg, setMsg] = useState('...loading')
